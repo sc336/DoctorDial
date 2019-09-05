@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DoctorDial</string>
+    <array name="autoFoo">
+        <item>Foo</item>
+        <item>Bar</item>
+    </array>
+</resources>

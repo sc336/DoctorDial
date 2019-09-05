@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="splashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+
+    <style name="splashTheme1" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/tutorial1</item>
+        <!--<item name="android:windowBackground">@drawable/tutorial_number</item>-->
+    </style>
+    <style name="splashTheme2" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/tutorial2</item>
+    </style>
+    <style name="splashTheme3" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/tutorial3</item>
+    </style>
+    <style name="splashTheme4" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/tutorial4</item>
+    </style>
+    <style name="splashTheme5" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/tutorial5</item>
+    </style>
+</resources>

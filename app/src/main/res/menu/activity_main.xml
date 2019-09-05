@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group_delays" android:checkableBehavior="single">
+        <item android:id="@+id/delay10" android:title="Short delay (10s)"></item>
+        <item android:id="@+id/delay15" android:title="Medium delay (15s)" android:checked="true"></item>
+        <item android:id="@+id/delay20" android:title="Long delay (20s)"></item>
+        <item android:id="@+id/delay30" android:title="Longer delay (30s)"></item>
+    </group>
+    <group android:id="@+id/tutorial_option_group" >
+        <item android:id="@+id/show_tutorial" android:title="Show tutorial" />
+        <item android:id="@+id/toggle_tutorial" android:title="Tutorial on start" android:checkable="true"></item>
+    </group>
+</menu>

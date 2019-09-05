@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:paddingBottom="6dp">
+    <TextView android:id="@+id/contactName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+    <TextView android:id="@+id/contactType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contactName"
+        android:layout_marginRight="20sp"
+        android:textSize="14sp"/>
+    <TextView android:id="@+id/contactPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/contactType"
+        android:layout_toRightOf="@id/contactType"
+        android:textSize="14sp" />
+
+</RelativeLayout>
